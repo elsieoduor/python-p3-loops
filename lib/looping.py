@@ -2,9 +2,9 @@
 
 def happy_new_year():
     # code goes here!
-    i = 0
-    while i < 10:
-        i += 1
+    i = 10
+    while i > 1:
+        i -= 1
         return('Happy New Year!')
         
 
